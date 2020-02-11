@@ -1,1 +1,11 @@
-
+var a
+var b
+var c
+var Root1
+var Root2
+var VertexX
+var VertexY
+var Axisofsymmetry
+var Discriminant
+var NumberofRoots
+var VerticalStretchCompression
