@@ -8,7 +8,8 @@ h1 {
   text-alignment: center;
 }
 
-<canvas id="graph" width="800" height="800"></canvas>
+<canvas id="graph" width="800" height="800" style="border:3px solid #000000;">
+</canvas>
 
 </style>
 </head>
