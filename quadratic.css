@@ -7,5 +7,8 @@ h1 {
   color: black
   text-alignment: center;
 }
+
+<canvas id="graph" width="800" height="800"></canvas>
+
 </style>
 </head>
