@@ -3,10 +3,6 @@
             <script src="quadratic.js">Javascript</script>
       <script src="quadratic.css">CSS</script>
 <head>
-      
-<canvas id="graph" width="800" height="800" style="border:3px solid #000000;">
-</canvas>
-
       <form action="/action_page.php">
              <label for="a">Variable A:</label><br>
              <input type="text" id="a" name="a" value=""><br>
@@ -16,7 +12,7 @@
              <input type="text" id="c" name="c" value=""><br>
       </form>  
 <body>
-            <canvas id="myCanvas" width="300" height="150" style="border:1px solid #d3d3d3;">
+            <canvas id="myCanvas" width="500" height="300" style="border:1px solid #d3d3d3;">
                         
 <script>
 var c = document.getElementById("myCanvas");
@@ -25,14 +21,14 @@ var ctx = c.getContext("2d");
 ctx.beginPath();              
 ctx.lineWidth = "2";
 ctx.strokeStyle = "black";  // black path
-ctx.moveTo(150,0);
-ctx.lineTo(150, 300);
+ctx.moveTo(250,0);
+ctx.lineTo(250, 300);
 ctx.stroke();  // Draw it
 
 ctx.beginPath();
 ctx.strokeStyle = "black";  // black path
-ctx.moveTo(0, 75);
-ctx.lineTo(300,75);            
+ctx.moveTo(0, 150);
+ctx.lineTo(500,150);            
 ctx.stroke();  // Draw it
             
 </script>
@@ -41,4 +37,4 @@ ctx.stroke();  // Draw it
 
 </body>            
 </head>  
-</html>  
+</html>
